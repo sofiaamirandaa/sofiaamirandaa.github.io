@@ -1,0 +1,102 @@
+html {
+  background-color: #E0FFFF;
+  font-size: 16px;
+  font-family: 'Helvetica';
+}
+
+.topics {
+   background-color: #FFB6C1;
+   width: 100%;
+   margin-top: 0;
+   margin-right:0;
+   text-align: left;
+}
+header ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  height: 3rem;
+  align-items: center;
+  gap: 20px;
+  font-weight: bold;
+}
+
+.agency-name {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color:#FFA07A;
+  text-align: center;
+}
+
+.mission {
+  text-align: justify;
+}
+.mission h2 {
+  color: #DC143C;
+  font-weight: bold;
+}
+
+.pictures {
+  display: flex;
+  flex-direction: row;
+  gap: 1.75rem;
+  margin: auto;
+  flex-grow: 1;
+  object-fit: cover;
+  align-items: center;
+  max-width: 100%;
+  justify-content: center;
+}
+
+.picture {
+  width: 400px;
+  height: 300px;
+}
+
+
+
+.feedback {
+  text-align: justify;
+  color: #DC143C;
+}
+
+.final h3 {
+  color: #DC143C;
+  text-align: center;
+  font-size: 1.75rem;
+}
+
+.final img {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+}
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  height: 3rem;
+  align-items: center;
+  gap: 20px;
+  font-weight: bold;
+}
+
+ footer {
+   background-color: #FFB6C1;
+   width: 100%;
+   margin-top: 0;
+   margin-right:0;
+   text-align: left;
+ }
+ 
+@media only screen and (max-width: 768px) {
+  .pictures {
+    flex-direction: column;
+    margin: auto;
+  }
+
+}
+
